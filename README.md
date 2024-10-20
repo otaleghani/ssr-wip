@@ -36,3 +36,8 @@ To manage this states you'll need to create different exports for a certain comp
 - The client swaps the loading state for the default one
 - If the server didn't find any data it would have returned the not found state
 - If the server encounterd an error it would have returned the error state
+
+### Layout components
+You could also implement static rendered layout components. This one are cached client side after the first request and are basically used to "hold" the changing page.
+
+Layouts are where you put all of the things that do not change with page renders. You footers, headers, sidebars and other things that you want to have.
